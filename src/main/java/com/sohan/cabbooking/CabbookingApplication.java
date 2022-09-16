@@ -7,7 +7,7 @@ import com.sohan.cabbooking.entities.CabBookingRequest;
 import com.sohan.cabbooking.entities.Driver;
 import com.sohan.cabbooking.entities.Location;
 import com.sohan.cabbooking.entities.Rider;
-import com.sohan.cabbooking.entities.RiderAccount;
+import com.sohan.cabbooking.repositories.RiderAccount;
 
 // @SpringBootApplication
 public class CabbookingApplication {

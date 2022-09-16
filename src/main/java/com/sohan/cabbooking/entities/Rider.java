@@ -3,6 +3,7 @@ package com.sohan.cabbooking.entities;
 import java.util.HashMap;
 import java.util.UUID;
 import com.sohan.cabbooking.enums.RiderStatus;
+import com.sohan.cabbooking.repositories.RiderAccount;
 
 public class Rider {
     RiderAccount riderAccount;
