@@ -1,5 +1,8 @@
 package com.sohan.cabbooking;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import com.sohan.cabbooking.command.CabManager;
 import com.sohan.cabbooking.config.RiderManager;
 import com.sohan.cabbooking.entities.Cab;
@@ -9,11 +12,11 @@ import com.sohan.cabbooking.entities.Location;
 import com.sohan.cabbooking.entities.Rider;
 import com.sohan.cabbooking.repositories.RiderAccount;
 
-// @SpringBootApplication
+@SpringBootApplication
 public class CabbookingApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(CabbookingApplication.class, args);
+		SpringApplication.run(CabbookingApplication.class, args);
 
 		// Cab current Location assign
 		Location cabLocation1 = new Location(10, 1);
